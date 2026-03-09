@@ -75,8 +75,7 @@ The geometry features are then merged with the aerodynamic dataset using `prop_k
 
 
 # Feature Set
-
-The neural network input contains both geometry and operating parameters.
+The neural network input comprises both geometric and operational parameters.
 
 Base parameters:
 
@@ -96,7 +95,6 @@ The final feature vector includes all geometry stations along with the operating
 
 
 # Model
-
 The model is a feed forward neural network implemented using TensorFlow and Keras.
 
 Architecture overview:
@@ -112,6 +110,3 @@ The model predicts two aerodynamic coefficients:
 - CP (power coefficient)
 
 Training uses scaled input features and a regression loss function.
-
-
-# Repository Structure
